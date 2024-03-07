@@ -1,0 +1,16 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.total-price {
+  text-align: center;
+  /* margin-right: 50px 
+px
+; */
+  /* margin-bottom: 20px; */
+  /* margin-top: 1rem; */
+  margin: 1rem;
+  font-size: 20px;
+}
