@@ -8,8 +8,7 @@
   flex-wrap: wrap;
 }
 button {
-  margin-top: 25px;
-  margin-bottom: auto;
+  margin: 5px;
   padding: 10px;
   color: white;
   border: none;
@@ -25,6 +24,11 @@ button {
   align-items: center;
   justify-content: center;
   box-shadow: 5px 5px 10px #ccc;
+}
+
+.card-btn {
+  display: flex;
+  flex-direction: row;
 }
 .card img {
   width: 90%;

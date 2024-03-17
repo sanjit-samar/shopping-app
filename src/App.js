@@ -9,6 +9,9 @@ function App() {
   const isLoggedIn = useSelector(state => state.auth.isLoggedIn);
   console.log(isLoggedIn)
 
+  const cartItem = useSelector( state => state.cart.itemList);
+  console.log(cartItem, 's');
+
   return (
     <div className="App">
       { isLoggedIn ? <Layout /> :  <Auth />}

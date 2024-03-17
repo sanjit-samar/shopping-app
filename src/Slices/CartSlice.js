@@ -27,10 +27,16 @@ const cartSlice = createSlice({
           totalPrice : newItems.price,
           name: newItems.name
         });
+
+        state.totalQuantity++
       }
     },
 
-    removeCart(state) {},
+    removeCart(state,action) {
+      // const items = action.payload;
+      state.totalQuantity--;
+
+    },
 
     showCart(state) {
       state.isCartShow = true;
